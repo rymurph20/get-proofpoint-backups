@@ -1,8 +1,8 @@
 #
 # Author  : Ryan Murphy (wwww.rmurph.com)
-# Comment : This script will SSH into a Proofpoint server to get the most recent backup and move it to 
-#           an acciesble Windows SMB share. The script user needs to have read/write access to the 
-#           SMB share.
+# Comment : This will SSH into a Proofpoint server to get the most recent backup and 
+#           move it to an accessible Windows SMB share. The user the script runs under 
+#           needs to have read/write access to the SMB share.
 #
 # Usage   : >>> proofpoint_getbackup.py
 #
